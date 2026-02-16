@@ -30,8 +30,7 @@ jobs:
     - name: Run Security Check
       run: node app.js
       env:
-# This connects the GitHub Secret to the code&#39;s environment
-variable
+# This connects the GitHub Secret to the code&#39;s environment variable
 WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
 
   package:
